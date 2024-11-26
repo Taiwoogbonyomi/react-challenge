@@ -28,6 +28,8 @@ class NavBarSimple extends Component {
                     <span>{this.state.message}</span>
                     <button onClick={() => this.handleclick()}>{this.state.buttonText}</button>
                 </div>
+
+                
             </div>
         )
     }
